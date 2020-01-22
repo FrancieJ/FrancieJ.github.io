@@ -1,8 +1,20 @@
+.bg-primary {
+    background-color: #1f98ad;
+}
+
+body {
+    font-family: helvetica;
+}
+
+.dark-heading {
+    font-color: #1f98ad;
+}
+
+h1 {
+    color: white;
+}
+
 .jumbotron {
     background-image: url('../pictures/cover.jpg');
     background-size: cover;
-}
-
-.jumbotron .h1 {
-    color: white;
 }
