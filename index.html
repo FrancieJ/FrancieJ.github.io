@@ -15,7 +15,7 @@
   <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
         <a class="navbar-brand order-1 mr-0" href="https://www.balitourismboard.org" target="_blank">Bali Tourism Board</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,33 +34,35 @@
     <!-- /Navbar -->
 
     <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container pt-4">
-        <h1 class="display-2 text-center">Bali</h1>
-        <p class="lead text-center">Welcome to Paradise.</p>
+    <div class="jumbotron jumbotron-fluid mb-0">
+      <div class="container pt-5">
+        <h1 class="display-2 text-center text-white">Bali</h1>
+        <p class="lead text-center text-white">Welcome to Paradise.</p>
       </div> 
     </div><!-- /Jumbotron -->
 
     <!-- About -->
-    <div id="about" class="container mx-auto py-5">
-      <h2 class="text-center pb-2 display-4">About Bali</h3>
+    <div id="about" class="container mx-auto mt-0 py-3 bg-light">
+      <h2 class="text-center pb-2 display-4 dark-heading">About Bali</h3>
       <div class="row">
-          <div class="col-md order-last p-3">
+        <div class="col-md order-last p-4">
             <p>Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. Located east of Java and west of Lombok, the province includes the island of Bali and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan.</p>
-          </div>
+            <p>Bali is Indonesia's main tourist destination, with a significant rise in tourism since the 1980s. It is renowned for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music. </p>
+            <p>Bali is part of the Coral Triangle, the area with the highest biodiversity of marine species especially fish and turtles. In this area alone, over 500 reef-building coral species can be found. For comparison, this is about seven times as many as in the entire Caribbean.</p>
+        </div>
 
           <!-- Carosel -->
-          <div class="col-md order-first p-3">
+          <div class="col-md order-first p-4">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="pictures/scooter.jpg" class="d-block w-100" alt="Someone riding a scooter in Bali">
+                    <img src="pictures/scooter.jpg" class="d-block w-100 img-fluid" alt="Someone riding a scooter in Bali">
                   </div>
                   <div class="carousel-item">
-                    <img src="pictures/monkey.jpg" class="d-block w-100" alt="A monkey">
+                    <img src="pictures/monkey.jpg" class="d-block w-100 img-fluid" alt="A monkey">
                   </div>
                   <div class="carousel-item">
-                    <img src="pictures/watertemple.jpg" class="d-block w-100" alt="A temple in Bali">
+                    <img src="pictures/watertemple.jpg" class="d-block w-100 img-fluid" alt="A temple in Bali">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -77,12 +79,12 @@
     </div><!-- /About -->
 
     <!-- Things to Do -->
-    <div id="things" class="container mx-auto py-5">
-      <h2 class="text-center pb-3 display-4" id="things">Things to Do</h2>
+    <div id="things" class="container mx-auto py-3 bg-primary">
+      <h2 class="text-center pb-3 display-4 text-white" id="things">Things to Do</h2>
       <div class="row row-cols-1 row-cols-md-3">
           <div class="col mb-4">
             <div class="card h-100">
-              <img src="pictures/surfing.jpg" class="card-img-top" alt="surfing">
+              <img src="pictures/surfing.jpg" class="card-img-top img-fluid" alt="surfing">
               <div class="card-body">
                 <h5 class="card-title">Learn to Surf</h5>
                 <p class="card-text">Learn to surf on the beautiful beaches of Canggu.</p>
@@ -91,7 +93,7 @@
           </div>
           <div class="col mb-4">
             <div class="card h-100">
-              <img src="pictures/waterfall.jpg" class="card-img-top" alt="waterfall">
+              <img src="pictures/waterfall.jpg" class="card-img-top img-fluid" alt="waterfall">
               <div class="card-body">
                 <h5 class="card-title">Chase Waterfalls</h5>
                 <p class="card-text">Home to more than a dozen waterfalls, Northern Bali is a waterfall lover's dream.</p>
@@ -100,7 +102,7 @@
           </div>
           <div class="col mb-4">
             <div class="card h-100">
-              <img src="pictures/temple.jpg" class="card-img-top" alt="temple">
+              <img src="pictures/temple.jpg" class="card-img-top img-fluid" alt="temple">
               <div class="card-body">
                 <h5 class="card-title">Visit Temples</h5>
                 <p class="card-text">Learn about Balinese culture by visiting religious sites like Pura Ulun Danu Beratan.</p>
@@ -109,7 +111,7 @@
           </div>
           <div class="col mb-4">
             <div class="card h-100">
-              <img src="pictures/mountain2.jpg" class="card-img-top" alt="mt. batur">
+              <img src="pictures/mountain2.jpg" class="card-img-top img-fluid" alt="mt. batur">
               <div class="card-body">
                 <h5 class="card-title">Climb Mt. Batur</h5>
                 <p class="card-text">Enjoy sunrise views from the top of Bali's most active volcano.</p>
@@ -118,7 +120,7 @@
           </div>
           <div class="col mb-4">
               <div class="card h-100">
-                <img src="pictures/nusapenida.jpg" class="card-img-top" alt="Kelingking Beach">
+                <img src="pictures/nusapenida.jpg" class="card-img-top img-fluid" alt="Kelingking Beach">
                 <div class="card-body">
                   <h5 class="card-title">Explore Nusa Penida</h5>
                   <p class="card-text">Only a short boat-ride from Bali, Nusa Penida is home to beautiful beaches - including the famous t-rex shaped Kelingking Beach.</p>
@@ -127,7 +129,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-100">
-                  <img src="pictures/cooking-2.jpg" class="card-img-top" alt="Balinese meal">
+                  <img src="pictures/cooking-2.jpg" class="card-img-top img-fluid" alt="Balinese meal">
                   <div class="card-body">
                     <h5 class="card-title">Take a Cooking Class</h5>
                     <p class="card-text">Learn to cook classic Balinese dishes over an authentic wood-burning stove.</p>
@@ -138,9 +140,9 @@
       </div><!-- /Things to Do -->
 
     <!-- Know Before You Go -->
-    <div id="know" class="container mx-auto py-5">
+    <div id="know" class="container mx-auto py-3 bg-light">
       <div class="col-sm">
-          <h2 class="text-center pb-2 display-4">Know Before You Go</h2>
+          <h2 class="text-center pb-2 display-4 dark-heading">Know Before You Go</h2>
             <div class="accordion" id="accordionExample">
                 <div class="card">
                   <div class="card-header text-center" id="headingOne">
