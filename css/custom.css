@@ -21,7 +21,7 @@ body {
 
 .btn-link:hover {
     color: #1f98ad;
-    font-size: 101%;
+    text-decoration: underline;
 }
 
 .carousel-inner {
