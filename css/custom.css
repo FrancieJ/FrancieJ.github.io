@@ -1,4 +1,13 @@
-.bg-primary {
+a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+.bg-gray {
+    background-color: #d9e6e9;
+}
+
+.bg-teal {
     background-color: #1f98ad;
 }
 
@@ -6,11 +15,42 @@ body {
     font-family: helvetica;
 }
 
-.dark-heading {
+.btn-link {
+    color: #1f98ad;
+}
+
+.btn-link:hover {
+    color: #1f98ad;
+    font-size: 101%;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+    background-color: #d9e6e9;
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+.row {
+    display: flex;
+  }
+
+.text-blue {
     color: #1f98ad;
 }
 
 .jumbotron {
     background-image: url('../pictures/cover.jpg');
     background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.navbar {
+    background-color: #1f98adda;
 }
