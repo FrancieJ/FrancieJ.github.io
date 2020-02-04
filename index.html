@@ -44,15 +44,15 @@
     <!-- About -->
     <div id="about" class="container-fluid bg-gray py-3">
         <div class="row d-flex flex-row">
-          <div class="col-lg align-self-center">
-              <h2 class="text-center pt-2 pb-3 display-3 text-blue">About Bali</h2>
+          <div class="col-md align-self-center">
+              <h2 class="text-center pt-2 pb-3 display-4 text-teal">About Bali</h2>
                 <p>Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. Located east of Java and west of Lombok, the province includes the island of Bali and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan.</p>
                 <p>Bali is Indonesia's main tourist destination, with a significant rise in tourism since the 1980s. It is renowned for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music. </p>
                 <p>Bali is part of the Coral Triangle, the area with the highest biodiversity of marine species especially fish and turtles. In this area alone, over 500 reef-building coral species can be found. For comparison, this is about seven times as many as in the entire Caribbean.</p>
           </div>
 
           <!-- Carosel -->
-          <div class="col-lg py-4 align-self-center">
+          <div class="col-md py-4 align-self-center">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -80,7 +80,7 @@
 
     <!-- Things to Do -->
     <div id="things" class="container-fluid mx-auto bg-teal pb-3">
-      <h2 class="text-center pt-4 pb-3 display-3 text-white" id="things">Things to Do</h2>
+      <h2 class="text-center pt-4 pb-3 display-4 text-white" id="things">Things to Do</h2>
       <div class="row row-cols-1 row-cols-md-3">
           <div class="col mb-4">
             <div class="card h-100">
@@ -140,73 +140,77 @@
       </div><!-- /Things to Do -->
 
     <!-- Know Before You Go -->
-    <div id="know" class="container-fluid mx-auto bg-gray pb-3">
-      <div class="col-sm">
-          <h2 class="text-center pt-4 pb-3 display-3 text-blue">Know Before You Go</h2>
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header text-center" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed text-blue" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Language
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                        Indonesian, Balinese, and English are the most widely-spoken languages in Bali.
+    <div id="know" class="container-fluid mx-auto bg-gray pb-5 know">
+      <h2 class="text-center pt-4 pb-3 display-4 text-teal">Know Before You Go</h2>
+      <div class="row">
+        <div class="col-6 offset-3">
+              <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header text-center" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-blue" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Language
+                        </button>
+                      </h2>
                     </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header text-center" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed text-blue" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Currency
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                        The Indonesian Rupiah (IDR) is the national currency of Indonesia. $1 USD is approximately Rp14,000 IDR.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header text-center" id="headingThree">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed text-blue" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Religion
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                        Hinduism is the predominant religion in Bali, making up approximately 90% of the population. Bali is also home to Christian, Muslim and Buddhist minorities
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                          Indonesian is the official language of Bali. Balinese and English are are also widely-spoken.
+                      </div>
                     </div>
                   </div>
                   <div class="card">
-                      <div class="card-header text-center" id="headingFour">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link collapsed text-blue" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Climate
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Bali has a tropical climate. The rainy season is from November to March, and the dry season is from April to October.
-                        </div>
+                    <div class="card-header text-center" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-blue" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Currency
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                          The Indonesian Rupiah (IDR) is the national currency of Indonesia. $1 USD is approximately Rp14,000 IDR.
                       </div>
                     </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header text-center" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-blue" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Religion
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                          Hinduism is the predominant religion in Bali, making up approximately 83% of the population. Bali is also home to Christian, Muslim and Buddhist minorities.
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header text-center" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed text-blue" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Climate
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                              Bali has a tropical climate. The rainy season is from November to March, and the dry season is from April to October.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
                 </div>
+              </div>
+        </div>
     </div><!-- /Know Before You Go -->
 
     <!-- footer -->
-    <div class="row py-4">
-        <div class="col text-right">
-          <small>This website was created for educational purposes. Learn more about Bali <a href="https://www.balitourismboard.org" target="_blank" class="text-blue">here.</a></small>
-        </div>
+    <div class="container-fluid py-4">
+      <div class="col text-center">
+        <small>This website was created for educational purposes. All information sourced from <a href="https://en.wikipedia.org/wiki/Bali" target="_blank" class="text-teal">Wikipedia.</a> All images Copyright © Francie Johnson</small>
+      </div>
     </div><!-- /footer -->
 
   </div>

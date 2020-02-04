@@ -1,5 +1,5 @@
 a:hover {
-    color: white;
+    color: #1f98ad;
     text-decoration: underline;
   }
 
@@ -35,19 +35,29 @@ body {
     padding-right: 10%;
 }
 
+.jumbotron {
+    background-image: url('../pictures/cover.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.know {
+    background-image: url('../pictures/mountain3.jpg');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .row {
     display: flex;
   }
 
-.text-blue {
+.text-teal {
     color: #1f98ad;
-}
-
-.jumbotron {
-    background-image: url('../pictures/cover.jpg');
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
 }
 
 .navbar {
